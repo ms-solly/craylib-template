@@ -43,6 +43,11 @@ gcc -o game src/main.c -I<path_to_raylib_include> -L<path_to_raylib_lib> -lrayli
 ```
 Replace `<path_to_raylib_include>` and `<path_to_raylib_lib>` with your actual raylib paths.
 
+one way i prefer now is running script 
+```bash
+bash ./build.sh
+```
+
 **Visual Studio:**  
 Just build and run the solution/project as usual.
 
